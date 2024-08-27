@@ -29,7 +29,7 @@
   <link rel="stylesheet" href="assets/css/section.css" />
   <link rel="stylesheet" href="assets/css/base.css" />
   <link rel="stylesheet" href="assets/css/responsive.css" />
-
+<!--tirar esse estilo na conferencia para entregar o projeto-->
   <style>
       body{
     background-color: #1a7fbd;
@@ -60,5 +60,151 @@
             </div>
         </div>
     </header>
+    <main>
+        <selection class="register" id="register">
+            <div class="block-form">
+                <form action="submit" class="form">
+                    <label class="form-data">
+                        <div class="form-header">
+                            <h2>Formulário de Cadastro</h2>
+                            <h3>Preencha seus dados</h3>
+                        </div>
+                        <div>
+                            <label class="input-form">
+                            <img src="IMG/icons/user.png" alt="user" class="ico"/>
+                            <input type="text"
+                            class="name"
+                            placeholder="Nome Completo"
+                            name="nome"
+                            required
+                            >
+                            </label>
+                            <label for="" class="input-form">
+                                <img src="IMG/icons/state.png" alt="ico" class="ico"/>
+                                    <select name="estados" id="estados" required>
+                                        <option value="AC" selected>Acre</option>
+                                        <option value="AL">Alagoas</option>
+                                        <option value="AP">Amapá</option>
+                                        <option value="AM">Amazonas</option>
+                                        <option value="BA">Bahia</option>
+                                        <option value="CE">Ceará</option>
+                                        <option value="DF">Distrito Federal</option>
+                                        <option value="ES">Espírito Santo</option>
+                                        <option value="GO">Goiás</option>
+                                        <option value="MA">Maranhão</option>
+                                        <option value="MT">Mato Grosso</option>
+                                        <option value="MS">Mato Grosso do Sul</option>
+                                        <option value="MG">Minas Gerais</option>
+                                        <option value="PA">Pará</option>
+                                        <option value="PB">Paraíba</option>
+                                        <option value="PR">Paraná</option>
+                                        <option value="PE">Pernambuco</option>
+                                        <option value="PI">Piauí</option>
+                                        <option value="RJ">Rio de Janeiro</option>
+                                        <option value="RN">Rio Grande do Norte</option>
+                                        <option value="RS">Rio Grande do Sul</option>
+                                        <option value="RO">Rondônia</option>
+                                        <option value="RR">Roraima</option>
+                                        <option value="SC">Santa Catarina</option>
+                                        <option value="SP">São Paulo</option>
+                                        <option value="SE">Sergipe</option>
+                                        <option value="TO">Tocantins</option>
+                                    </select>
+                            </label>
+                        </div>
+                    </label>
+                        <label for="" class="form-tec">
+                            <h2>
+                                Conhecimento de Programação*
+                            </h2>
+                            <label class="item1">
+                                <input type="checkbox" name="HTML" value="HTML"/>
+                                HTML
+                            </label>
+                            <label class="item2">
+                                <input type="checkbox" name="CSS" value="CSS"/>
+                                CSS
+                            </label>
+                            <label for="" class="item3">
+                                <input type="checkbox" name="JavaScript" value="JavaScript"/>
+                                JavaScript
+                            </label>
+                            <label for="" class="item4">
+                                <input type="checkbox" name="PHP" value="PHP"/>
+                                PHP
+                            </label>
+                            <label for="" class="item5">
+                                <input type="checkbox" name=".NET" value=".NET"/>
+                                .NET
+                            </label>
+                            <label for="" class="item6"><input type="checkbox" name="Vue.js" value="Vue.js"/>
+                                Vue.js</label>
+                            <label for="" class="item7"><input type="checkbox" name="ReactJS" value="ReactJS"/>
+                                ReactJS</label>
+                            <label for="" class="item8"><input type="checkbox" name="React Native" value="React Native"/>
+                                React Native</label>
+                            <label for="" class="item9"><input type="checkbox" name="Node" value="Node"/>
+                                Node</label>
+                            <label for="" class="item10"><input type="checkbox" name="Python" value="Python"/>
+                                Python</label>
+                            <label for="" class="item11"><input type="checkbox" name="Flutter" value="Flutter"/>
+                                Flutter</label>
+                            <label for="" class="item12"><input type="checkbox" name="Outras" value="Outras"/>
+                                Outras</label>
+                        </label>
+                    
+                        <label class="form-group">
+                            <div class="working">
+                              <h2>Já trabalhou com desenvolvimento?</h2>
+                            </div>
+                            <div class="boolean">
+                              <label>
+                                <input
+                                  type="radio"
+                                  id="btn-yes"
+                                  name="fav_language"
+                                  value="HTML"
+                                />
+                                Sim
+                              </label>
+                              <label>
+                                <input
+                                  type="radio"
+                                  id="btn-no"
+                                  name="fav_language"
+                                  value="CSS"
+                                />
+                                Não
+                              </label>
+                            </div>
+                            <div class="mark">
+                              
+                            </div>
+                            <div>
+                              <p>[*] Campos Obrigatórios</p>
+                            </div>
+                            
+                            <div class="btn send" id="mensagem-enviada">
+                              <a href=""> Enviar </a>
+                            </div>
+                            <div class="term">
+                              <p>
+                                Ao clicar em enviar você concorda com todos os termos de uso
+                                de dados descritos em <a href="">política de privacidade</a>
+                              </p>
+                            </div>
+                          </label>
+                        </form>
+                      </div>
+                      <div class="vector">
+                        <img
+                          class="vector3"
+                          src="assets/img/Elements/vector3.png"
+                          alt="vector3"
+                        />
+                      </div>
+        </selection>
+        
+    </main>
 </body>
 </html>
