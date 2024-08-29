@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", function () {
     alert("Formulário enviado com sucesso!");
     form.reset();
 
-    // Exibir de mensagem "Cadastro enviado"
+    // Exibir a mensagem "Cadastro enviado"
     mensagemEnviada.style.display = "block";
   });
 });
