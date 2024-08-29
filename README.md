@@ -6,8 +6,15 @@ Este projeto faz parte do segundo desafio do processo seletivo do **Projeto Netu
 
 ## Tecnologias Utilizadas
 
-- **HTML5**: Para estruturar o conteúdo da página.
-- **SASS (Syntactically Awesome StyleSheets)**: Um pré-processador CSS que permite a criação de estilos mais modulares e reutilizáveis. O SASS foi compilado para CSS, garantindo flexibilidade para futuras mudanças e facilitando a manutenção do código.
+- **HTML**: Utilizado para estruturar uma página web.
+- **CSS**: Utilizado para estilizar os elementos da página e fornecer um layout responsivo.
+- **JavaScript**: Utilizado para adicionar interatividade à página e manipular eventos do usuário.
+
+## Funcionalidades Adicionadas
+
+- **Animações**: Implementei animações sutis para melhorar a experiência do usuário e tornar a página mais dinâmica.
+- **Validação de Formulário**: Adicionei validação de formulário utilizando JavaScript para garantir que os dados inseridos pelo usuário sejam corretos antes de serem enviados.
+- **Compatibilidade com Navegadores**: Testei a página em diferentes navegadores e dispositivos para garantir uma experiência consistente em todos os ambientes.
 
 ## Detalhes do Projeto
 
@@ -17,7 +24,7 @@ Este projeto faz parte do segundo desafio do processo seletivo do **Projeto Netu
 
 ## Links de Referência
 
-- **Projeto Figma**: [https://www.figma.com/design/KSvagRbLWbdzMSC6HyPTNL/Netuno-LP?node-id=1-2&t=WjIyu0nthu1hEeIY-0](#)
+- **Projeto Figma**: [(https://www.figma.com/design/KSvagRbLWbdzMSC6HyPTNL/Netuno-LP?node-id=1-2&t=WjIyu0nthu1hEeIY-0)](#)
 - **Repositório de Referência do 1º Desafio**: [https://lucasribeiro27.github.io/Projeto_Netuno_Junho/](#)
 
 ## Deploy
@@ -25,4 +32,3 @@ Este projeto faz parte do segundo desafio do processo seletivo do **Projeto Netu
 A Landing Page pode ser visualizada diretamente através do link abaixo:
 
 - [Desafio Netuno Landing Page]()
-
