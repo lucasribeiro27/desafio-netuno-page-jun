@@ -731,7 +731,7 @@ main {
     top: 0;
     width: 40%;
     height: 60%;
-    background: url(../img/dev.png) no-repeat;
+    background: url(../IMG/dev.png) no-repeat;
     background-size: contain;
     margin-right: 20rem;
   }
