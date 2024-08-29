@@ -22,7 +22,7 @@ Este projeto faz parte do segundo desafio do processo seletivo do **Projeto Netu
 
 ## Links de Referência
 
-- **Projeto Figma**: [Link para o Figma](ttps://www.figma.com/design/KSvagRbLWbdzMSC6HyPTNL/Netuno-LP?node-id=1-2&t=WjIyu0nthu1hEeIY-0))
+- **Projeto Figma**: [Link para o Figma](https://www.figma.com/design/KSvagRbLWbdzMSC6HyPTNL/Netuno-LP?node-id=1-2&t=WjIyu0nthu1hEeIY-0)
 - **Repositório de Referência do 1º Desafio**: [Link para o Repositório](https://lucasribeiro27.github.io/Projeto_Netuno_Junho/)
 
 ## Deploy
