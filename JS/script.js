@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
   form.addEventListener("submit", function (event) {
     event.preventDefault();
 
-    // Validando o nome
+    // validar o nome
     const nomeInput = document.querySelector(".name");
     const nome = nomeInput.value.trim();
     if (nome === "") {
@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
       return false;
     }
 
-    // Validando o e-mail
+    // validar e-mail
     const emailInput = document.querySelector(".e-mail");
     const email = emailInput.value.trim();
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
       return false;
     }
 
-    // Validando se alguma opção de conhecimento foi selecionada
+    // Validação de conhecimento
     const conhecimentoInputs = document.querySelectorAll(
       'input[type="checkbox"][name^=""]'
     );
@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", function () {
       return false;
     }
 
-    // Validando se a opção de já ter trabalhado com desenvolvimento foi selecionada
+    // validar se a opção de já ter trabalhado com desenvolvimento foi selecionada
     const trabalhouInputYes = document.getElementById("btn-yes");
     const trabalhouInputNo = document.getElementById("btn-no");
     if (!trabalhouInputYes.checked && !trabalhouInputNo.checked) {
@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", function () {
     alert("Formulário enviado com sucesso!");
     form.reset();
 
-    // Exibir a mensagem de "Cadastro enviado"
+    // Exibir de mensagem "Cadastro enviado"
     mensagemEnviada.style.display = "block";
   });
 });
