@@ -1,0 +1,224 @@
+main {
+    background-color: #1a7fbd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  main p {
+    font-weight: 540;
+  }
+  
+  main .register {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../IMG/bannertopo.png) no-repeat -10vw;
+    background-size: contain;
+  }
+  
+  main .register .block-form {
+    position: absolute;
+    max-width: 70%;
+    max-height: 80%;
+    height: 75%;
+    width: 30%;
+    min-width: 40vh;
+    right: 10%;
+    top: 15%;
+    z-index: 1000;
+  }
+  
+  main .register .block-form::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 2vh;
+    border: 0.1vw solid transparent;
+    background: linear-gradient(45deg, #ffffff, transparent, transparent, #ffffff)
+      border-box; -webkit-mask: linear-gradient(#ffffff 0 0),
+      padding-box linear-gradient(#ffffff 0 0);
+    mask-composite: exclude;
+  }
+  
+  main .register .vector {
+    display: flex;
+    justify-content: flex-end;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  main .register .vector img {
+    position: absolute;
+    height: 30%;
+    width: 13%;
+    top: 52.9%;
+    z-index: -100;
+  }
+  
+  main .project {
+    width: 80%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: -5%;
+  }
+  main .project .img-dev {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 40%;
+    height: 60%;
+    background: url(../img/dev.png) no-repeat;
+    background-size: contain;
+    margin-right: 20rem;
+  }
+  
+  main .project .intro-project {
+    position: absolute;
+    right: 10%;
+    max-width: 40%;
+    min-width: 30%;
+    flex-direction: column;
+    padding-left: 5%;
+    color: #fff;
+  }
+  
+  main .project .intro-project h1 {
+    color: #a4dcff;
+  }
+  
+  main .problem {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  main .problem .intro-problem {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+  }
+  
+  main .problem .intro-problem .woman {
+    width: 70%;
+    height: 100%;
+    background-color: bisque;
+    background: url(../IMG/Container2.png) no-repeat center/contain;
+  }
+  
+  main .problem .intro-problem article {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 100vh;
+    margin-top: 20%;
+    margin-right: 10%;
+  }
+  
+  .btn-register .highlight {
+    color: #1a7fbd;
+  }
+  
+  main .problem .intro-problem article h1 {
+    background: linear-gradient(to right, #1a7fbd, #a4dcff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    min-height: 10%;
+  }
+  
+  main .problem .intro-problem article h2 {
+    font-weight: 900;
+    min-height: 15%;
+  }
+  
+  main .problem .intro-problem article div {
+    width: 100%;
+    height: 0.1vh;
+    background-color: #000;
+    opacity: 0.2;
+    margin-top: -5%;
+    margin-bottom: 5%;
+  }
+  
+  main .journey {
+    background-color: #fff;
+    width: 100%;
+    min-height: 60vh;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  main .journey .top-journey {
+    margin-top: 10rem;
+    max-width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  main .journey .top-journey img {
+    width: 50%;
+  }
+  
+  main .journey .top-journey h1 {
+    background: linear-gradient(to right, #1a7fbd, #a4dcff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    min-width: 30%;
+    text-align: center;
+  }
+  
+  main .journey .top-journey .inverter {
+    transform: scaleX(-1);
+  }
+  
+  main .journey .btn-register {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5vh;
+    height: 6vh;
+    width: 50vw;
+    max-width: 50vh;
+    text-align: center;
+  }
+  
+  main .journey .vetor2 {
+    margin-top: 2vh;
+    align-items: flex-end;
+    margin-bottom: 5rem;
+  }
+  
+  main .goals {
+    width: 80vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  main .goals h1 {
+    color: #fff;
+    font-weight: 900;
+    padding-bottom: 3rem;
+    font-size: 1.5rem;
+  }
