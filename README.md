@@ -29,4 +29,4 @@ Este projeto faz parte do segundo desafio do processo seletivo do **Projeto Netu
 
 A Landing Page pode ser visualizada diretamente através do link abaixo:
 
-- [Desafio Netuno Landing Page]()
+- [Desafio Netuno Landing Page](https://lucasribeiro27.github.io/desafio-netuno-page-jun/)
