@@ -545,8 +545,8 @@ main .problem .card {
   }
   
   main .problem .card div:hover {
-    box-shadow: 0 0 2px #03e9f4, 0 0 2px #03e9f4, 0 0 2px #03e9f4,
-      0 0 50px #03e9f4;
+    box-shadow: 0 0 2px #445758, 0 0 2px #445758, 0 0 2px #445758,
+      0 0 50px #445758;
   }
   
   .card-journey {
@@ -593,8 +593,8 @@ main .problem .card {
   
   .card-journey .card-blue:hover {
     height: 51%;
-    box-shadow: 0 0 2px #03e9f4, 0 0 2px #03e9f4, 0 0 2px #03e9f4,
-      0 0 50px #03e9f4;
+    box-shadow: 0 0 2px #445758, 0 0 2px #445758, 0 0 2px #445758,
+      0 0 50px #445758;
   }
   
   .card-journey .card-blue:hover p {
@@ -646,8 +646,8 @@ main .problem .card {
   }
   
   .goals-card:hover {
-    box-shadow: 0 0 2px #03e9f4, 0 0 2px #03e9f4, 0 0 2px #03e9f4,
-      0 0 50px #03e9f4;
+    box-shadow: 0 0 2px #445758, 0 0 2px #445758, 0 0 2px #445758,
+      0 0 50px #445758;
   }
 
 /*-----------------selections--------------------*/
@@ -790,7 +790,7 @@ main {
   }
   
   main .problem .intro-problem article h1 {
-    background: linear-gradient(to right, #1a7fbd, #a4dcff);
+    background: linear-gradient(to right, #2d4a5c, #a4dcff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 900;
