@@ -20,22 +20,8 @@
   />
 
 
-  <link rel="stylesheet" href="assets/css/header.css" />
-  <link rel="stylesheet" href="assets/css/main.css" />
-  <link rel="stylesheet" href="assets/css/footer.css" />
-  <link rel="stylesheet" href="assets/css/button.css" />
-  <link rel="stylesheet" href="assets/css/form.css" />
-  <link rel="stylesheet" href="assets/css/cards.css" />
-  <link rel="stylesheet" href="assets/css/section.css" />
-  <link rel="stylesheet" href="assets/css/base.css" />
-  <link rel="stylesheet" href="assets/css/responsive.css" />
-<!--tirar esse estilo na conferencia para entregar o projeto-->
-  <style>
-      body{
-    background-color: #1a7fbd;
-}
+  <link rel="stylesheet" href="css/style.css" />
 
-  </style>
 </body>
     <title>Fasters</title>
 </head>
@@ -53,12 +39,13 @@
                     <li><a href="#goals">Objetivos</a></li>
                 </ul>
             </nav>
-            <span class="material-symbols-outlined menu">menu</span>
-            <span class="material-symbols-outlined menu-arrow">arrow_upward</span>
+            <span class="material-symbols-outlined menu" onclick="clickMenuShow()">menu</span>
+            <span class="material-symbols-outlined menu-arrow" onclick="clickMenuClose()">arrow_upward</span>
             <div class="button btn-black btn-res">
                 <a href="">Processo Seletivo</a>
             </div>
         </div>
+        <span class="separator"></span>
     </header>
     <main>
         <selection class="register" id="register">
@@ -77,8 +64,15 @@
                             placeholder="Nome Completo"
                             name="nome"
                             required
-                            >
+                            />
                             </label>
+                            <label for="" class="input-form">
+                                <img src="IMG/icons/email.png" alt="" class="ico"/>
+                                <input type="email" class="e-mail" name="e-mail"
+                                placeholder="E-mail*"
+                                required/>
+                            </label>
+
                             <label for="" class="input-form">
                                 <img src="IMG/icons/state.png" alt="ico" class="ico"/>
                                     <select name="estados" id="estados" required>
@@ -272,7 +266,7 @@
                 </p>
               </div>
               <div>
-                <h2><strong>Experiencia Real</strong></h2>
+                <h2><strong>Experiência Real</strong></h2>
                 <p>
                   Entendemos que somente as experiências reais poderão trazer a
                   bagagem que a teroria não o pode fazer.
@@ -338,10 +332,10 @@
             </div>
             <div class="btn-black btn-register">
               <a href="">Quero me cadastrar para o <span class="highlight">Processo Seletivo</span></a>
-              <img src="IMG/Elements/Vector1.png" alt="enter" />
+              <img src="IMG/icons/enter.png" alt="enter" />
             </div>
             <div class="vetor2">
-              <img src="IMG/Elements/Vector2.png" alt="Vector1" />
+              <img src="IMG/Elements/Vector1.png" alt="Vector1" />
             </div>
           </section>
     
@@ -436,5 +430,5 @@ src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.j
 integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
 crossorigin="anonymous"
 ></script>
-<script type="text/javascript" src="assets/script/script.js"></script>
+<script type="text/javascript" src="JS/script.js"></script>
 </html>
