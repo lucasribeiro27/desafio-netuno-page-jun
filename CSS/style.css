@@ -547,6 +547,7 @@ main .problem .card {
   main .problem .card div:hover {
     box-shadow: 0 0 2px #445758, 0 0 2px #445758, 0 0 2px #445758,
       0 0 50px #445758;
+      transition: height 0.3s ease, box-shadow 0.3s ease;
   }
   
   .card-journey {
