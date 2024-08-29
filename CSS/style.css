@@ -1,5 +1,5 @@
 
-/*-----------------header--------------------*/
+
 header {
     background-color: #1a7fbd;
     display: flex;
@@ -92,7 +92,6 @@ header {
     );
   }
 
-  /*-----------------main--------------------*/
  
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Orbitron:wght@500&family=Unbounded:wght@300&display=swap");
 
@@ -122,8 +121,6 @@ header,
   align-items: center;
   justify-content: center;
 }
-
-/*-----------------footer--------------------*/
 
 footer {
     background-color: #000;
@@ -215,7 +212,6 @@ footer {
     margin-top: 10%;
   }
 
-/*-----------------buttons--------------------*/
 
 .btn {
     
@@ -254,8 +250,6 @@ footer {
     color: white;
     text-decoration: none;
   }
-
-/*-----------------forms--------------------*/
 
 form {
     height: 97%;
@@ -495,7 +489,6 @@ form {
     color: white;
   }
 
-/*-----------------cards--------------------*/
 
 main .problem .card {
     flex-direction: row;
@@ -651,7 +644,6 @@ main .problem .card {
       0 0 50px #03e9f4;
   }
 
-/*-----------------selections--------------------*/
 
 main {
     background-color: #1a7fbd;
@@ -878,7 +870,6 @@ main {
     font-size: 1.5rem;
   }
 
-/*-----------------bases--------------------*/
 
 html {
     scroll-behavior: smooth;
@@ -923,7 +914,6 @@ html {
     width: 100%;
   }   
 
-/*-----------------responsive--------------------*/
 
 @media screen and (max-width: 768px) {
     header {
